@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mental Wellness Check-In</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Mental Wellness Check-In</h1>
+
+    <div class="mood-section">
+      <h3>How do you feel today?</h3>
+      <div class="mood-options">
+        <button class="mood-btn" data-mood="happy">😊 Happy</button>
+        <button class="mood-btn" data-mood="sad">😔 Sad</button>
+        <button class="mood-btn" data-mood="stressed">😣 Stressed</button>
+      </div>
+    </div>
+
+    <div class="journal-section">
+      <h3>Write about it (optional)</h3>
+      <textarea id="journal" rows="4" placeholder="Write your thoughts..."></textarea>
+      <button id="saveBtn">Save Entry</button>
+    </div>
+
+    <div class="history-section">
+      <h3>Past Mood Chart</h3>
+      <div id="moodChart" class="mood-chart"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

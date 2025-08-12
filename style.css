@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f8ff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.mood-options {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0;
+}
+
+.mood-btn {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.mood-btn:hover {
+  background: #d3eaff;
+}
+
+textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+#saveBtn {
+  margin-top: 0.5rem;
+  padding: 0.6rem 1rem;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.mood-chart {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 1rem;
+}
+
+.mood-box {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.happy { background: #ffeb3b; }
+.sad { background: #90caf9; }
+.stressed { background: #ef9a9a; }
